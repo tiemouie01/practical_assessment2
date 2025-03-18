@@ -6,6 +6,7 @@ public class EvenSumCalculator {
 
         for (int i = 1; i <= 10; i++) {
             // Logical error was modulus check, solved by checking for 0 instead of 1
+            // if (i % 2 == 1) {
             if (i % 2 == 0) {
                 sum += i;
             }
