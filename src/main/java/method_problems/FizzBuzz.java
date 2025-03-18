@@ -1,4 +1,4 @@
-package methods;
+package method_problems;
 
 public class FizzBuzz {
     public static String fizzBuzz(int number) {
